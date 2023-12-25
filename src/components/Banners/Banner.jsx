@@ -1,16 +1,33 @@
-import ErrorBanner from "./ErrorBanner";
-import SuccessBanner from "./SuccessBanner";
-import WarningBanner from "./WarningBanner";
-import NeutralBanner from "./NeutralBanner";
+import classnames from "classnames";
 
 export default function Banner({ variant, message, title }) {
-  if (variant === "success") {
-    return <SuccessBanner message={message} title={title} />;
-  } else if (variant === "warning") {
-    return <WarningBanner message={message} title={title} />;
-  } else if (variant === "error") {
-    return <ErrorBanner message={message} title={title} />;
-  } else if (variant === "neutral") {
-    return <NeutralBanner message={message} title={title} />;
-  }
+  // Declare component classes based on the variant
+  const bannerClasses = classnames("banner", variant);
+  const iconClasses = classnames(
+    "fa-solid",
+    "fa-circle-xmark",
+    "banner-icons",
+    `${variant}-icon`
+  );
+  const titleClasses = classnames("banner-title", `${variant}-title`);
+  const descriptionClasses = classnames(
+    "banner-description",
+    `${variant}-description`
+  );
+
+  return (
+    <div className={bannerClasses}>
+      <i className={iconClasses}></i>
+      <div>
+        {message ? (
+          <>
+            <h1 className={titleClasses}>{title}</h1>
+            <p className={descriptionClasses}>{message}</p>
+          </>
+        ) : (
+          <h1 className={titleClasses}>{title}</h1>
+        )}
+      </div>
+    </div>
+  );
 }
