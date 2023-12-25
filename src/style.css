@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #d8d9db;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*****************************
+    badge component style 
+ ****************************/
+
+.badge {
+  text-align: center;
+  margin-top: 17px;
+}
+
+.badge-label {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 12px;
+}
+
+/* badge shape variation */
+
+.square {
+  border-radius: none;
+}
+
+.pill {
+  border-radius: 12px;
+}
+
+/* badge color varation */
+.gray {
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.red {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.yellow {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.green {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.blue {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.indigo {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.purple {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.pink {
+  background: #fce7f3;
+  color: #9d174d;
+}
