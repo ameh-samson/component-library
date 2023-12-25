@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div>
       <Badges variant="red" badgeShape="pill">
-        Badges
+        Buy Now
       </Badges>
     </div>
   );

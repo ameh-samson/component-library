@@ -22,10 +22,9 @@ export default function Badges({ children, badgeShape, variant }) {
     case "green":
     case "blue":
     case "indigo":
-      variantClass = variant;
-      break;
     case "pink":
-      variantClass = "purple";
+    case "purple":
+      variantClass = variant;
       break;
     default:
       variantClass = "defaultVariant";
