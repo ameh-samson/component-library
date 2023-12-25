@@ -195,3 +195,41 @@ h1 {
 .neutral-description {
   color: #1c51b9;
 }
+
+/*****************************
+    card component style 
+ ****************************/
+
+.card-wrapper {
+  background: #f9fafb;
+  width: 384px;
+  padding: 56px 24px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-wrapper img {
+  position: absolute;
+  top: -30px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.card-description {
+  color: #6b7280;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.card-wrapper.hovered {
+  box-shadow: 0px 4px 25px 0px #0000001a;
+}
