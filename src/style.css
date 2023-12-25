@@ -123,13 +123,13 @@ h1 {
   margin-top: 8px;
 }
 
-/* congratulation variant */
+/* success variant */
 
-.congratulation {
+.success {
   background: #ecfdf5;
 }
 
-.congratulation-icon {
+.success-icon {
   color: #34d399;
 }
 

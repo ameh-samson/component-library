@@ -1,7 +1,7 @@
-export default function CongratulationsBanner({ message, title }) {
+export default function SuccessBanner({ message, title }) {
   return (
-    <div className="banner congratulation">
-      <i className="fa-solid fa-circle-xmark banner-icons congratulation-icon"></i>
+    <div className="banner success">
+      <i className="fa-solid fa-circle-xmark banner-icons success-icon"></i>
       <div>
         {message ? (
           <>
