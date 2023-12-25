@@ -106,6 +106,7 @@ h1 {
   max-width: 896px;
   padding: 16px;
   border-radius: 6px;
+  margin-top: 35px;
 }
 
 .banner-icons {
@@ -157,4 +158,40 @@ h1 {
 
 .warning-description {
   color: #b45309;
+}
+
+/*error variant */
+
+.error {
+  background: #fef2f2;
+}
+
+.error-icon {
+  color: #f87171;
+}
+
+.error-title {
+  color: #92400e;
+}
+
+.error-description {
+  color: #b45309;
+}
+
+/*neutral variant */
+
+.neutral {
+  background: #eff6ff;
+}
+
+.neutral-icon {
+  color: #60a5fa;
+}
+
+.neutral-title {
+  color: #1e40af;
+}
+
+.neutral-description {
+  color: #1c51b9;
 }

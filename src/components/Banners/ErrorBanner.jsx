@@ -1,18 +1,18 @@
 import classnames from "classnames";
 
-export default function SuccessBanner({ message, title }) {
+export default function ErrorBanner({ message, title }) {
   // declaring components classes
-  const bannerClasses = classnames("banner", "success");
+  const bannerClasses = classnames("banner", "error");
   const iconClasses = classnames(
     "fa-solid",
-    "fa-circle-check",
+    "fa-circle-xmark",
     "banner-icons",
-    "success-icon"
+    "error-icon"
   );
-  const titleClasses = classnames("banner-title", "success-title");
+  const titleClasses = classnames("banner-title", "error-title");
   const descriptionClasses = classnames(
     "banner-description",
-    "success-description"
+    "error-description"
   );
 
   return (

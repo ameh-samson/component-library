@@ -1,18 +1,18 @@
 import classnames from "classnames";
 
-export default function SuccessBanner({ message, title }) {
+export default function NeutralBanner({ message, title }) {
   // declaring components classes
-  const bannerClasses = classnames("banner", "success");
+  const bannerClasses = classnames("banner", "neutral");
   const iconClasses = classnames(
     "fa-solid",
-    "fa-circle-check",
+    "fa-circle-xmark",
     "banner-icons",
-    "success-icon"
+    "neutral-icon"
   );
-  const titleClasses = classnames("banner-title", "success-title");
+  const titleClasses = classnames("banner-title", "neutral-title");
   const descriptionClasses = classnames(
     "banner-description",
-    "success-description"
+    "neutral-description"
   );
 
   return (
