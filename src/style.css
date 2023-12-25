@@ -133,10 +133,28 @@ h1 {
   color: #34d399;
 }
 
-.title {
+.success-title {
   color: #065f46;
 }
 
-.description {
+.success-description {
   color: #047857;
+}
+
+/* warning variant */
+
+.warning {
+  background: #fffbeb;
+}
+
+.warning-icon {
+  color: #fbbf24;
+}
+
+.warning-title {
+  color: #92400e;
+}
+
+.warning-description {
+  color: #b45309;
 }

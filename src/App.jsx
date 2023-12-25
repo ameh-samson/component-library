@@ -5,7 +5,7 @@ export default function App() {
     <div>
       <Banner
         title="Congratulations!"
-        variant="success"
+        variant="warning"
         message=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
       />
     </div>
