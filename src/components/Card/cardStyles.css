@@ -1,3 +1,13 @@
+body {
+  background: #d8d9db;
+  height: 100vh;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /*****************************
     card component style 
  ****************************/

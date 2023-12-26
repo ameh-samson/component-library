@@ -7,11 +7,11 @@ export default function App() {
   return <Testimonial />;
 }
 
-// <div>
-//   <Badges variant="red" badgeShape="pill">
-//     Buy Now
-//   </Badges>
-// </div>
+// {/* <div>
+// <Badges variant="red" badgeShape="pill">
+//   Buy Now
+// </Badges>
+// </div> */}
 
 // {
 //   /* <Banner

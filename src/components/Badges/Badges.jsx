@@ -1,5 +1,5 @@
 import classnames from "classnames";
-import "./badgeStyless.css";
+import "./badgeStyles.css";
 
 export default function Badges({ children, badgeShape, variant }) {
   let badgeShapeClass;
