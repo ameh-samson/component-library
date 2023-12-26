@@ -1,4 +1,5 @@
 import classnames from "classnames";
+import "./bannerStyles.css";
 
 export default function Banner({ variant, message, title }) {
   // Declare component classes based on the variant

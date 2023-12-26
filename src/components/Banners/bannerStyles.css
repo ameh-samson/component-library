@@ -1,0 +1,100 @@
+/*****************************
+    banner component style 
+ ****************************/
+
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 896px;
+  padding: 16px;
+  border-radius: 6px;
+  margin-top: 35px;
+}
+
+.banner-icons {
+  align-self: flex-start;
+}
+
+.banner-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.banner-description {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+/* success variant */
+
+.success {
+  background: #ecfdf5;
+}
+
+.success-icon {
+  color: #34d399;
+}
+
+.success-title {
+  color: #065f46;
+}
+
+.success-description {
+  color: #047857;
+}
+
+/* warning variant */
+
+.warning {
+  background: #fffbeb;
+}
+
+.warning-icon {
+  color: #fbbf24;
+}
+
+.warning-title {
+  color: #92400e;
+}
+
+.warning-description {
+  color: #b45309;
+}
+
+/*error variant */
+
+.error {
+  background: #fef2f2;
+}
+
+.error-icon {
+  color: #f87171;
+}
+
+.error-title {
+  color: #92400e;
+}
+
+.error-description {
+  color: #b45309;
+}
+
+/*neutral variant */
+
+.neutral {
+  background: #eff6ff;
+}
+
+.neutral-icon {
+  color: #60a5fa;
+}
+
+.neutral-title {
+  color: #1e40af;
+}
+
+.neutral-description {
+  color: #1c51b9;
+}
