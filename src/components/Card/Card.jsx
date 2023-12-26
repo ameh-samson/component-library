@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./cardStyles.css";
 
 export default function Card({ title, description }) {
   const [isHovered, setIshovered] = useState(false);

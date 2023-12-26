@@ -1,16 +1,10 @@
 import Badges from "./components/Badges/Badges";
 import Banner from "./components/Banners/Banner";
 import Card from "./components/Card/Card";
+import Testimonial from "./components/Testimonials/Testimonial";
+
 export default function App() {
-  return (
-    <div>
-      <Card
-        title="Easy Deployment"
-        description="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
-          magna sit morbi lobortis."
-      />
-    </div>
-  );
+  return <Testimonial />;
 }
 
 // <div>
@@ -43,4 +37,14 @@ export default function App() {
         variant="neutral"
         message=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
       /> */
+}
+
+{
+  /* <div>
+<Card
+  title="Easy Deployment"
+  description="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
+    magna sit morbi lobortis."
+/>
+</div> */
 }
